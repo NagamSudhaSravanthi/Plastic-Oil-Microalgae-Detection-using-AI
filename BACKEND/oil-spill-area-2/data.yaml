@@ -1,0 +1,13 @@
+train: D:/Oild_Plastic/oil-spill-area-2/train/images
+val: D:/Oild_Plastic/oil-spill-area-2/valid/images
+test: D:/Oild_Plastic/oil-spill-area-2/test/images
+
+nc: 2
+names: ['oil spill', 'oil_spillage']
+
+roboflow:
+  workspace: ajay-k4fpo
+  project: oil-spill-area
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ajay-k4fpo/oil-spill-area/dataset/2
